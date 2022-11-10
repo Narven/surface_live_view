@@ -1,0 +1,7 @@
+<style>
+.{{filename.snakeCase()}} {
+  @apply font-bold text-xl;
+}
+</style>
+
+<div class="{{filename.snakeCase()}}">{{filename}}</div>
